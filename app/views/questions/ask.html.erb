@@ -1,0 +1,26 @@
+<%# <form action="/answer" data-turbo="false">
+  <input type="text" name="question">
+  <input type="submit" value="Ask!">
+</form> %>
+
+<h1>Stupid coaching</h1>
+
+<%# <form action="/answer" method="post">
+  <label for="question" class="form-label">Ask your coach anything:</label>
+  <div class="input-group mb-3">
+    <input type="text" class="form-control" placeholder="Write your question here" name="question" id="question">
+    <div class="input-group-append">
+      <button class="btn btn-primary" type="button">Ask</button>
+    </div>
+  </div>
+</form> %>
+
+<form action="/answer" method="get">
+  <label for="question" class="form-label">Ask your coach anything:</label>
+  <div class="input-group mb-3">
+    <input type="text" class="form-control" placeholder="Write your question here" name="question" id="question">
+    <div class="input-group-append">
+      <button class="btn btn-primary" type="submit">Ask</button>
+    </div>
+  </div>
+</form>
